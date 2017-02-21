@@ -48,24 +48,6 @@ There are few short comings in the process which i have implemented ,
    c) For the video challege My Lane line for the left lanes gets a little bit distorted when the colour of the road changes from dark         gray to light gray, I have to adjust the threshold values which i have provided 
    
    
-   
-   
-    
  
-
-
-
-
-
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
-
-###3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+  
+Few possible improvents to my pipeline would be to collect points and draw a curve using opencv.polylines function which might put a proper curve imposition on top of the lanes where their is a curve instead of a straight line , the reason i was not able to do that was lak of knowledge in python and opencv,but i will definetly some research and implement it in future to detect a smooth and clear lines 
